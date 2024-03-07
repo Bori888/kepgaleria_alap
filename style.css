@@ -1,0 +1,35 @@
+.galeria {
+    display: flex;
+    justify-content: space-between;/*egyelő helyet hagy a divek közöt*/
+    flex-wrap: wrap;
+
+}
+
+.galeria .kep {
+   flex:0 0 150px;
+}
+.galeria img {
+    width: 100%;
+  
+}
+
+.nagykep div {
+    display: flex;
+    justify-content: center;/*középre helyez*/
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+
+
+.nagykep {
+   
+    border: 1px solid gray; 
+    border-radius: 10px;
+}
+.nagykep img {
+    width: 80%;
+    
+}
